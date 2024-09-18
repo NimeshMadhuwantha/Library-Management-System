@@ -6,6 +6,7 @@ import Book1 from '../../assets/Books/Book1.jpeg'
 import Book2 from '../../assets/Books/Book2.jpeg'
 import Book3 from '../../assets/Books/Book3.jpeg'
 import Book4 from '../../assets/Books/Book4.jpeg'
+// import Footer from '../../Components/Footer/Footer';
 
 
 const Home = () => {
@@ -86,7 +87,7 @@ const Home = () => {
         </div>
       </div>
 
-
+    {/* <Footer/> */}
     </div>
   )
 }

@@ -331,7 +331,7 @@
       }
     .welcome-section{
         margin-top: 160px;
-        margin-left: -6%;
+        /* margin-left: -6%; */
       }
   
     .categories-section {
@@ -342,7 +342,7 @@
   
     .category-card {
       width: 80%;
-      margin-left: -6%;
+      /* margin-left: -6%; */
     }
   }
   @media (max-width: 600px){
@@ -369,19 +369,19 @@
       .AddBook-btn{
         margin-left: 12%;
       } */
-    .welcome-section,
+    /* .welcome-section,
     .category-card{
         margin-left: -9%;
-    }
+    } */
   }
   @media (max-width: 500px){
     .top-search-bar {
         left: 44%;
       }
-    .welcome-section,
+    /* .welcome-section,
     .category-card{
         margin-left: -12%;
-    }
+    } */
   }
   @media (max-width: 435.5px){
     .top-categories-section {
@@ -396,8 +396,8 @@
     .top-search-bar {
         left: 43%;
       }
-    .welcome-section,
+    /* .welcome-section,
     .category-card{
         margin-left: -17%;
-    }
+    } */
   }
