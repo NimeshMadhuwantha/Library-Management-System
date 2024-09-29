@@ -1,0 +1,176 @@
+.home-container {
+  /* display: flex;
+  flex-direction: column; */
+  min-height: 100vh; 
+  font-family: Arial, sans-serif;
+  color: #fff;
+  width: 100%; 
+}
+
+
+footer {
+  background-color: #032a3b;
+  color: #fff;
+  text-align: center;
+  margin-top: auto; 
+  width: 100%;
+}
+
+  .footer-content{
+    margin-bottom: 0px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+  }
+  .footer-top {
+    margin-bottom: 20px;
+  }
+  
+  .footer-top p {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .social-icon {
+    font-size: 1.5em;
+    color: #fff;
+    transition: color 0.3s;
+  }
+  
+  .social-icon:hover {
+    color: #1e90ff; 
+  }
+  
+
+  .footer-about {
+    margin-top: 20px;
+  }
+  
+  .footer-about h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+  }
+  
+  .footer-about p {
+    font-size: 1em;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 1024px) {
+    .footer-container {
+      padding: 30px 20px;
+    }
+  
+    .footer-top p {
+      font-size: 1.1em;
+    }
+  
+    .social-icon {
+      font-size: 1.4em;
+    }
+  
+    .footer-about h2 {
+      font-size: 1.6em;
+    }
+  
+    .footer-about p {
+      font-size: 0.95em;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .footer-container {
+      padding: 25px 15px;
+    }
+  
+    .footer-top p {
+      font-size: 1em;
+    }
+  
+    .social-icon {
+      font-size: 1.3em;
+    }
+  
+    .footer-about h2 {
+      font-size: 1.4em;
+    }
+  
+    .footer-about p {
+      font-size: 0.9em;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .footer-container {
+      padding: 20px 10px;
+    }
+  
+    .footer-top p {
+      font-size: 1em;
+    }
+  
+    .social-icon {
+      font-size: 1.2em;
+    }
+  
+    .footer-about h2 {
+      font-size: 1.3em;
+    }
+  
+    .footer-about p {
+      font-size: 0.85em;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .footer-container {
+      padding: 20px 8px;
+    }
+  
+    .footer-top p {
+      font-size: 0.95em;
+    }
+  
+    .social-icon {
+      font-size: 1.1em;
+    }
+  
+    .footer-about h2 {
+      font-size: 1.2em;
+    }
+  
+    .footer-about p {
+      font-size: 0.8em;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .footer-container {
+      padding: 15px 5px;
+    }
+  
+    .footer-top p {
+      font-size: 0.9em;
+    }
+  
+    .social-icon {
+      font-size: 1em;
+    }
+  
+    .footer-about h2 {
+      font-size: 1.1em;
+    }
+  
+    .footer-about p {
+      font-size: 0.75em;
+    }
+  }
+  
