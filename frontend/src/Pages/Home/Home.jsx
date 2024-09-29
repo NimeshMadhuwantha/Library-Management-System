@@ -11,6 +11,7 @@ import Book4 from '../../assets/Books/Book4.jpeg'
 
 const Home = () => {
   return (
+    <>
     <div className="home-container">
       <div className="background-section">
         <img 
@@ -87,8 +88,10 @@ const Home = () => {
         </div>
       </div>
 
-    {/* <Footer/> */}
+   
     </div>
+    {/* <Footer/> */}
+    </>
   )
 }
 

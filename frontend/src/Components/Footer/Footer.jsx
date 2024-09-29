@@ -5,7 +5,7 @@ import { FaWhatsapp, FaYoutube, FaTwitter, FaInstagram, FaEnvelope } from 'react
 
 const Footer = () => {
   return (
-    <div>
+    <div className='footer-content'>
         <footer className="footer-container">
       <div className="footer-top">
         <p>Stay connected with us</p>
