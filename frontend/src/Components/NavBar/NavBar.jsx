@@ -15,16 +15,14 @@ const NavBar = () => {
         <div className="navbar-logo">BookIt</div>
 
         <ul className={`navbar-links ${isMenuOpen ? 'active' : ''}`}>
-          <li><a href="/">Home</a></li>
-          <li><a href="/books">Books</a></li>
-          <li><a href="/categories">Categories</a></li>
-          <li><a href="/contact">Contact Us</a></li>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/books">Books</Link></li>
+          <li><Link to="/categories">Categories</Link></li>
+          <li><Link to="/contact">Contact Us</Link></li>
 
           <div className="navbar-small-screen-buttons">
           
-            <button className="btn login-btn">Login</button>
-         
-            <button className="btn signup-btn">Sign Up</button>
+
           </div>
 
           <div className="navbar-close-icon" onClick={toggleMenu}>
@@ -35,8 +33,7 @@ const NavBar = () => {
         <div className="navbar-buttons">
         <a href="/LoginPage">
           <button className="btn login-btn">Login</button>
-        </a>
-          <button className="btn signup-btn">Sign Up</button>
+
         </div>
 
         <div className="navbar-menu-icon" onClick={toggleMenu}>
