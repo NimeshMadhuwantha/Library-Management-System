@@ -21,7 +21,9 @@ const NavBar = () => {
           <li><a href="/contact">Contact Us</a></li>
 
           <div className="navbar-small-screen-buttons">
+          
             <button className="btn login-btn">Login</button>
+         
             <button className="btn signup-btn">Sign Up</button>
           </div>
 
@@ -31,7 +33,9 @@ const NavBar = () => {
         </ul>
 
         <div className="navbar-buttons">
+        <a href="/LoginPage">
           <button className="btn login-btn">Login</button>
+        </a>
           <button className="btn signup-btn">Sign Up</button>
         </div>
 

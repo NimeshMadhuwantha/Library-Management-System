@@ -7,6 +7,7 @@ import NavBar from './Components/NavBar/NavBar';
 import Footer from './Components/Footer/Footer';
 import Book from './Pages/Books/Book';
 import AddBookPage from './Pages/AddBook/AddBookPage';
+import LoginPage from './Pages/LoginPage/LoginPage';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/books" element={<Book />} />
         <Route path="/add-book" element={<AddBookPage />} /> 
+        <Route path="/LoginPage" element={<LoginPage />} />
       </Routes>
 
     </Router>
