@@ -21,8 +21,8 @@ const NavBar = () => {
           <li><Link to="/contact">Contact Us</Link></li>
 
           <div className="navbar-small-screen-buttons">
-            <button className="btn login-btn">Login</button>
-            <button className="btn signup-btn" onClick={handleSignupClick}>Sign Up</button>
+          
+
           </div>
 
           <div className="navbar-close-icon" onClick={toggleMenu}>
@@ -31,8 +31,9 @@ const NavBar = () => {
         </ul>
 
         <div className="navbar-buttons">
+        <a href="/LoginPage">
           <button className="btn login-btn">Login</button>
-          <button className="btn signup-btn">Sign Up</button> 
+
         </div>
 
         <div className="navbar-menu-icon" onClick={toggleMenu}>

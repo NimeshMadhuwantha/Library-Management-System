@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { FaSearch } from 'react-icons/fa';
 import './Book.css';
 
+
 function Book() {
   const [searchQuery, setSearchQuery] = useState('');
   const [books, setBooks] = useState([
