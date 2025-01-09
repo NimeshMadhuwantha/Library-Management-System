@@ -8,6 +8,7 @@ import Footer from './Components/Footer/Footer';
 import Book from './Pages/Books/Book';
 import AddBookPage from './Pages/AddBook/AddBookPage';
 import LoginPage from './Pages/LoginPage/LoginPage';
+import SignupPage from './Pages/SignUp/SignupPage';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path="/books" element={<Book />} />
         <Route path="/add-book" element={<AddBookPage />} /> 
         <Route path="/LoginPage" element={<LoginPage />} />
+        <Route path="/SignupPage" element={<SignupPage />} />
       </Routes>
 
     </Router>

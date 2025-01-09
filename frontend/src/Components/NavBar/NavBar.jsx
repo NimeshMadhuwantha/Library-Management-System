@@ -36,7 +36,9 @@ const NavBar = () => {
         <a href="/LoginPage">
           <button className="btn login-btn">Login</button>
         </a>
+        <a href="/SignupPage">
           <button className="btn signup-btn">Sign Up</button>
+        </a>
         </div>
 
         <div className="navbar-menu-icon" onClick={toggleMenu}>
