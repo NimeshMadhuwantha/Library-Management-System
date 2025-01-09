@@ -33,7 +33,14 @@ const NavBar = () => {
         <div className="navbar-buttons">
         <a href="/LoginPage">
           <button className="btn login-btn">Login</button>
+<<<<<<< HEAD
+        </a>
+        <a href="/SignupPage">
+          <button className="btn signup-btn">Sign Up</button>
+        </a>
+=======
 
+>>>>>>> 101ba37dfc8330682d9c34c0525ffc16e2c056a2
         </div>
 
         <div className="navbar-menu-icon" onClick={toggleMenu}>
